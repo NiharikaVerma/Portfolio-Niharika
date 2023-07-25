@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niharika</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <script src="https://kit.fontawesome.com/8d451f6619.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="#">Portfo<span>lio</span></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#teams" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!--home section start-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">My name is</div>
+                <div class="text-2">Niharika</div>
+                <div class="text-3">I am a <span class="typing"></span></div>
+                <a href="#contact">Hire me</a>
+            </div>
+        </div>
+    </section>
+    <!--about section start-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="coloumn left">
+                    <img src="image/profile_new_cropped.jpg" alt="" />
+
+                </div>
+                <div class="coloumn right">
+                    <div class="text">I'm Niharika and I'm a <span class="typing-2"></span></div>
+                    <p>A professional web developer who refuses to take any shortcuts.
+                        To provide the best user experience, I concentrate on front-end web growth.
+                        I've been a freelancer for two years and have developed
+                        several projects using HTML, CSS, JavaScript, and Angular.
+                        As a front-end developer,
+                        my top priority is to keep the code easy and transparent so that
+                        it can be managed easily and efficiently.
+                        I am keen to learn new technologies when they are presented to me.</p>
+                    <a href="./Resume.pdf" target="_blank">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--services section start-->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My Services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-desktop"></i>
+                        <div class="text">Frontend</div>
+                        <p>
+                            As a Creative and self-starting Frontend Developer,
+                            I have been building stable e-commerce websites in collaborative environment
+                            using fundamental web technologies such as HTML, CSS, JavaScript, and
+                            Angular and leveraged modern libraries and frameworks.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="	fas fa-database"></i>
+                        <div class="text">Backend</div>
+                        <p>
+                            As a backend developer, I've worked with API development languages, and I've worked with databases,
+                            Implemented cache, hosted servers, and worked on other server-side technologies.
+                            Understanding the website's goals to find an effective solution is always the aim.
+
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="card">
+                        <div class="box">
+                            <i class="fas fa-code"></i>
+                            <div class="text">Apps Design</div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia eaque iure voluptatem delectus perspiciatis error!</p>
+                        </div>
+                    </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experience</div>
+                    <p>
+                        My primary responsibility as a web frontend developer is to code and ensure that a website's
+                        frontend, the part that visitors see and respond to, is engaging and capable of creating
+                        interest and conversions.
+                        I've tried to blend my technical-analytic expertise with my artistic abilities over the course
+                        of my three years of practise.
+                        <span id="dots">...</span>
+                        <span id="more" style="display: none;">
+                            I am a developer who uses the fundamental design principles to build a frontend that has a
+                            positive effect on users and their decisions.
+                        </span>
+                    </p>
+                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Angular</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line angular"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySql</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- teams section start  -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card" style="cursor:pointer;"
+                    onClick="window.open('','_newtab');">
+                        <div class="box">
+                            <img src="image/profile_10.jpg" alt="">
+                            <div class="text">Brickification Retail</div>
+                            <p style="color: aliceblue;">
+                                CRIF is responsibly to offer innovative solutions to support our customers to enhance access to credit in compliance, granting a digital access and use of financial services.
+                            </p>
+                            <br>
+                            <button class="button" onClick="window.open('https://cir.crifhighmark.com/free-credit-report/freeflow','_newtab');" target="_blank" id="myBtn">
+                                View Project
+                            </button>
+                        </div>
+                </div>
+                <div class="card" style="cursor:pointer;"
+                    onClick="window.open('','_newtab');">
+                        <div class="box">
+                            <img src="image/profile_10.jpg" alt="">
+                            <div class="text">Brickification SME</div>
+                            <p style="color: aliceblue;">
+                                CRIF is responsibly to offer innovative solutions to support our customers to enhance access to credit in compliance, granting a digital access and use of financial services.
+                            </p>
+                            <br>
+                            <button class="button" onClick="window.open('https://cir.crifhighmark.com/free-credit-report/freeflow','_newtab');" target="_blank" id="myBtn">
+                                View Project
+                            </button>
+                        </div>
+                </div>
+                <div class="card" style="cursor:pointer;"
+                    onClick="window.open('','_newtab');">
+                        <div class="box">
+                            <img src="image/profile_11.jpg" alt="">
+                            <div class="text">Mortgage</div>
+                            <p style="color: aliceblue;">
+                                Tanzania Commerical Bank Ltd offers long term loans issued to new or existing customers for the purpose of acquiring, improving and/or constructing residential houses, commercial properties, etc.
+                            </p>
+                            <br>
+                            <button class="button" onClick="window.open('https://www.tcbbank.co.tz/page/en/mortgage','_newtab');" target="_blank" id="myBtn">
+                                View Project
+                            </button>
+                        </div>
+                </div>
+                <div class="card" style="cursor:pointer;"
+                    onClick="window.open('','_newtab');">
+                        <div class="box">
+                            <img src="image/profile_2.jpg" alt="">
+                            <div class="text">E-commerce</div>
+                            <p style="color: aliceblue;">
+                                E-commerce website allows people to buy and sell product or products over the internet.
+                                And Also transfer money to complete purchases.
+                            </p>
+                            <br>
+                            <button class="button" onClick="window.open('https://github.com/NiharikaVerma/E-commerce','_newtab');" target="_blank" id="myBtn">
+                                View Project
+                            </button>
+                        </div>
+                </div>
+                <div class="card" style="cursor:pointer;">
+                    <div class="box">
+                        <img src="image/profile_1.jpg" alt="">
+                        <div class="text">
+                            Covid-19-Tracker
+                        </div>
+                        <p style="color: aliceblue;">
+                            Tracking the Spread of the Coronavirus (COVID-19) pandemic in India and Worldwide.
+                            Also, on the graph, display the countries with the most reports.
+                        </p>
+                        <br>
+                        <button class="button" onClick="window.open('https://angular-deploy-tracker.herokuapp.com/','_newtab');" target="_blank" id="myBtn">
+                            View Project
+                        </button>
+                    </div>
+                </div>
+                <!-- <div class="card">
+                    <div class="box">
+                        <img src="image/profile_1.jpg" alt="">
+                        <div class="text">More Projects</div>
+                        <p>Coming soon</p>
+                    </div>
+                </div> -->
+                <!-- <div class="card">
+                    <div class="box">
+                        <img src="image/profile_1.jpg" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="image/profile_1.jpg" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content ">
+                <div class="text">Get in touch</div>
+                <p>
+                    Hey, look at that, you've made it to the contact me segment of my portfolio; it seems that you're
+                    interested in working with me on some awesome and awe-inspiring web ventures..
+                    Well, what's the hold up? Lets make contact ->
+                </p>
+                <div class="icons">
+                    <div class="row">
+                        <i class="fas fa-user"></i>
+                        <div class="info">
+                            <div class="head">Name</div>
+                            <div class="sub-title">Niharika</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info">
+                            <div class="head">Address</div>
+                            <div class="sub-title">Bengaluru, Karnataka</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                            <div class="head">Email</div>
+                            <div class="sub-title">niharikaverma.1217@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <br>
+                    <div class="text">Message me</div>
+                    <form name="myForm">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" id="name" placeholder="Name">
+                            </div>
+                            <div class="field email">
+                                <input type="email" id="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" id="description" placeholder="-Describe project.."></textarea>
+                        </div>
+                        <div class="button">    
+                            <button type="submit" onclick="sendMessage()" value="send">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start  -->
+    <footer>
+        <span>Created By <a href="#">Niharika</a> | <span class="far fa-copyright"></span>2020 All rights
+            reserved.</span>
+    </footer>
+
+
+
+
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa optio ut necessitatibus sapiente dolores deserunt magni repellat, doloribus quidem. Temporibus distinctio alias quos at repellendus fugiat, corrupti eligendi non placeat nisi eaque dolores ad quo? Minima doloremque suscipit ipsa error fuga perspiciatis in pariatur, quia similique, velit consequatur sequi voluptas itaque perferendis labore doloribus. Sit, aspernatur? Tempore cupiditate, enim dignissimos minima totam ab odio itaque expedita sapiente sit consequatur voluptas mollitia est aliquam fugit sed sint incidunt asperiores necessitatibus! Eveniet quia provident quis voluptatum nisi corporis atque. Non doloribus vitae eligendi inventore harum aliquam exercitationem illum ratione officiis voluptatibus commodi, soluta eos consectetur temporibus quae adipisci rerum repellat, dolorem cum id aliquid placeat similique vero quos? Voluptates, omnis eveniet atque fugiat quo adipisci, aperiam facere velit magni et dignissimos laborum vero vel aspernatur aliquam voluptatem corrupti magnam? Quaerat saepe, ea, facere quod tempora facilis repellendus, doloribus vero maiores non necessitatibus nam! Iusto officia nihil inventore temporibus at? Excepturi veritatis hic rem reiciendis asperiores commodi consequatur nemo? Ab ea neque eum ipsum vel similique consequatur deleniti doloribus quo eveniet dicta fugiat iusto, cumque necessitatibus magni eaque architecto beatae magnam vero? Quibusdam, ad tenetur. Possimus perferendis placeat illo a voluptas cupiditate.</p> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
