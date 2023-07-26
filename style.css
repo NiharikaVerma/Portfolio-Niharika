@@ -388,19 +388,19 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 90% impor !important; 
+    width: 90% !important; 
 }
 .skills-content .right .css::before{
-    width: 60% !important;
+    width: 90% !important;
 }
 .skills-content .right .js::before{
     width: 80% !important;
 }
 .skills-content .right .angular::before{
-    width: 65% !important;
+    width: 90% !important;
 }
 .skills-content .right .mysql::before{
-    width: 70% !important;
+    width: 60% !important;
 }
 
 
